@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Registration_Page_WEGD_241_Assignment_1_</title>
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script> 
+  <script>
+  $( function() {
+    $( "#Accordion1" ).accordion({
+      collapsible: true
+    });
+  } );
+  </script>
+<link rel="shortcut icon" href="images/favicon.ico" />
+<link href="style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet"> 
+</head>
+
+	
+	
+<body>
+	<div id="container">
+<header id="header">
+	<div id="coverphoto"><h1 id="name">Spring Mountain Symphony</h1></div>
+	<nav id="nav">
+	<a href="index.html"><img class="logo-top" src="images/Spring_Mountain_Logo.png" alt="logo with letters S and M in a green circle"></a>
+	<ul id="menu-ul">
+		<li class="menu-list"><a href="index.html">Home</a></li>
+		<li class="menu-list"><a href="index.html">About</a></li>
+		<li class="menu-list"><a href="index.html">Staff</a></li>
+		<li class="menu-list"><a href="index.html">Programs</a></li>
+		<li class="menu-list"><a href="index.html">Register</a></li>
+	</ul>
+	</nav>
+</header>
+	
+<main id="main">
+  <h2>Register now for Spring Mountain Summertime Symphony!</h2>
+  <div id="wrapper-secondary">
+	<div id="left-third">
+		<p id="intro">Some text about registering for the Spring Mountain Summertime Symphony program and how much fun participants will have! Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+		<h3>Registration FAQs</h3>
+		
+		<div id="Accordion1">
+			<h4><a href="#">How much does it cost?</a></h4>
+				<div><p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p></div>
+			<h4><a href="#">Do you give refunds?</a></h4>
+				<div><p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p></div>
+			<h4><a href="#">Is there a family rate?</a></h4>
+				<div><p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p></div>
+			<h4><a href="#">Are accommodations provided?</a></h4>
+				<div> <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p></div>
+			<h4><a href="#">Are meals provided?</a></h4>
+				<div><p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p></div>
+		</div>
+	  </div>
+	<div id="right-two-thirds">
+		<form>
+			<div class="form-section">
+				<label for="p-name">Participant's Name*</label>
+				<input type="text" name="participantname" placeholder="First Last">
+			</div>
+			<div class="form-section">
+				<label for="g-name">Guardian's Name</label>
+				<input type="text" name="guardianname" placeholder="First Last">
+			</div>
+			<div class="form-section">
+				<label for="email">Email*</label>
+				<input type="email" placeholder="address@email.com">
+			</div>
+			<div class="form-section">
+				<label for="age">Age Range*</label>
+				<select name="Age Range" value="Age Range">
+					<option value="6-10">6-10</option>
+					<option value="11-15">11-15</option>
+					<option value="16-25">16-25</option>
+					<option value="26+">26+</option>
+				</select>
+			</div>
+			<div class="form-section">
+				<label for="p-instrument">Primary Instrument*</label>
+				<select name="Primary Instrument" value="Primary Instrument">
+					<option value="Bass">Bass</option>
+					<option value="Bassoon">Bassoon</option>
+					<option value="Cello">Cello</option>
+					<option value="Clarinet">Clarinet</option>
+					<option value="Flute">Flute</option>
+					<option value="Harp">Harp</option>
+					<option value="Horn">Horn</option>
+					<option value="Oboe">Oboe</option>
+					<option value="Piccolo">Piccolo</option>
+					<option value="Saxophone">Saxophone</option>
+					<option value="Timpani">Timpani</option>
+					<option value="Trombone">Trombone</option>
+					<option value="Trumpet">Trumpet</option>
+					<option value="Tuba">Tuba</option>
+					<option value="Viola">Viola</option>
+					<option value="Violin">Violin</option>
+					<option value="Other Percussion">Other Percussion</option>
+					<option value="Other">Other</option>
+				</select>
+			</div>
+			<div class="form-section">
+				<label for="s-instrument">Secondary Instrument</label>
+				<select name="Secondary Instrument" value="Secondary Instrument">
+					<option value="Bass">Bass</option>
+					<option value="Bassoon">Bassoon</option>
+					<option value="Cello">Cello</option>
+					<option value="Clarinet">Clarinet</option>
+					<option value="Flute">Flute</option>
+					<option value="Harp">Harp</option>
+					<option value="Horn">Horn</option>
+					<option value="Oboe">Oboe</option>
+					<option value="Piccolo">Piccolo</option>
+					<option value="Saxophone">Saxophone</option>
+					<option value="Timpani">Timpani</option>
+					<option value="Trombone">Trombone</option>
+					<option value="Trumpet">Trumpet</option>
+					<option value="Tuba">Tuba</option>
+					<option value="Viola">Viola</option>
+					<option value="Violin">Violin</option>
+					<option value="Other Percussion">Other Percussion</option>
+					<option value="Other">Other</option>
+				</select>
+			</div>
+			<div class="form-section">
+				<label for="skill">Skill Level*</label>
+				<select name="Skill Level" value="Skill Level">
+					<option value="Beginner">Beginner</option>
+					<option value="Intermediate">Intermediate</option>
+					<option value="Advanced">Advanced</option>
+					<option value="Professional">Professional</option>
+				</select>
+				<p id="form-caption">Make your best estimation. Participants will be grouped after their auditions on day one.</p>
+			</div>
+			<div class="form-section">
+				<input type="submit" value="Register!">
+			</div>
+		</form>
+		<div>
+			 <figure>
+  				<img src="images/register_page_reduced.jpg" alt="Summertime Symphony members playing in concert">
+				<figcaption>SMSS Concert Finale 2017.</figcaption>
+			</figure> 
+			
+		</div>
+	  </div>
+  </div>
+
+</main>
+	</div>
+<footer id="footer">
+  <div id="footer-left">
+	  <ul>
+		<li><a href="index.html">HOME</a></li>
+		<li><a href="index.html">ABOUT</a></li>
+		<li><a href="index.html">STAFF</a></li>
+		<li><a href="index.html">PROGRAMS</a></li>
+		<li><a href="index.html">REGISTER</a></li>
+	  </ul>
+  </div>
+	<div id="footer-centre">
+		<a href="index.html">
+			<img src="images/Spring_Mountain_Logo.png" id="footer-logo" alt="Spring Mountain Symphony Logo, green circle with letters S and M inside." />
+		</a>
+		<div>
+			<p id="footer-copy">&copy; Spring Mountain Symphony 2020.</p>
+			<p id="footer-rempel">By K. Rempel.</p>
+		</div>
+	</div>
+  <div id="footer-right">
+		<ul>
+			<li><a href="#"><i class="fab fa-twitter-square"></i>springmountain@twitter.com</a></li>
+			
+			<li><a href="#"><i class="fab fa-facebook-square"></i>springmountain@facebook.com</a></li>
+			
+			
+			<li><a href="#"><i class="fab fa-instagram"></i>springmountain@instagram.com</a></li>
+		</ul>
+	</div>
+</footer>
+	
+<script type="text/javascript">
+$(function() {
+	$( "#Accordion1" ).accordion(); 
+});
+</script> 
+</body>
+</html>
